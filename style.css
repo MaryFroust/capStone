@@ -1,0 +1,99 @@
+*{
+    font-size: 10px;
+}
+.{
+   
+}
+header{
+    height: 20%;
+    background-image:url(brighttDandies.png);
+    border-top: 5px solid rgb(36, 223, 248);
+    border-bottom: 5px solid rgb(13, 218, 241);
+    display: flex;
+    justify-content: center;   
+}
+h1{
+    color: rgb(157, 244, 244);
+    text-shadow: 5px;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(254, 26, 201);
+}
+body{
+    background-image: url(rivermoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.main-content{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pitch{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+}
+h4{
+    font-size:15px ;
+}
+
+h2{
+    font-size: 30px;
+}
+p{ font-size: 15px;}
+
+
+h3{
+    margin-top: 60px;
+    ;
+    font-size: 20px;  
+}
+.courses{
+    width: 25%;
+    height: 80vh;
+}
+a{
+    font-size: 15px;
+    
+}
+ul{
+    
+    padding-top: 20px;}
+
+li{
+    font-size: 17px;
+    margin: 20px;
+}
+
+
+.nav{
+    margin-left: ;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80vh;
+    box-shadow: 10px;
+}
+button{
+    border-radius: 5px;
+    border-color: rgb(12, 247, 47);
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction:  end ;
+    padding: 10px;
+    margin: 10px;
+    width: 55%;
+}
+button:hover{
+    background-color: rgb(205, 210, 255);
+    border-color: rgb(255, 0, 217);
+}
